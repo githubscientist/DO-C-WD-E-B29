@@ -38,18 +38,34 @@ Types of Conditional Statements
     Given a number, check and print if the number is a positive number or a negative number or a zero
 '''
 
+# number = 0
+
+# if number > 0:
+#     # the number is a positive number
+#     print(number, 'is a positive number')
+# else:
+#     # definitely the number is a not a positive number
+#     # either the number can be a negative number or a zero
+#     # have to decide whether the number is a negative or a zero
+#     if number < 0:
+#         # the number is a negative number
+#         print(number, 'is a negative number')
+#     else:
+#         # the number definitely has to be a zero
+#         print(number, 'is a zero')
+
+'''
+    Given a number, check and print if the number is a positive number or a negative number or a zero
+'''
+
 number = 0
 
 if number > 0:
     # the number is a positive number
     print(number, 'is a positive number')
+elif number < 0:
+    # the number is a negative number
+    print(number, 'is a negative number')
 else:
-    # definitely the number is a not a positive number
-    # either the number can be a negative number or a zero
-    # have to decide whether the number is a negative or a zero
-    if number < 0:
-        # the number is a negative number
-        print(number, 'is a negative number')
-    else:
-        # the number definitely has to be a zero
-        print(number, 'is a zero')
+    # definitely the number has to be a zero
+    print(number, 'is a zero')
