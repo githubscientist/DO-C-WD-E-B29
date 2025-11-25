@@ -1,0 +1,24 @@
+1. Write a program that should ask the user to enter a score (out of 100) and use conditional statements to assign a grade based on the following criteria:
+    - A: Score is 90 or above.
+    - B: Score is between 80 and 89.
+    - C: Score is between 70 and 79.
+    - D: Score is between 60 and 69.
+    - F: Score is below 60.
+
+Print the resulting grade to the user.
+
+
+2. Write a program that takes a year as input and determines if it is a leap year. Print whether the year is a leap year or not.
+    - Rules: A year is a leap year if it is divisible by 4, unless it is divisible by 100 byt not by 400.
+
+3. Write a program that takes a color (red, yellow or green) as input. Use if-elif-else to print the corresponding acton:
+    - red: "Stop"
+    - yellow: "Prepare to stop"
+    - green: "Go"
+    - Any other input: "Invalid color"
+
+4. Write a program that displays two options: 1. Check Balance and 2. Withdraw Money.
+    - Ask the user for their initial balance (eg., 1000)
+    - Ask the user to choose an option (1 or 2).
+    - If the user chooses option 1, display the current balance.
+    - If the user chooses option 2, ask for the amount to withdraw. Only allow the withdrawal if the amount is less than or equal to the current balance. Print the new balance or an "insufficient funds" message if the withdrawal cannot be processed.
